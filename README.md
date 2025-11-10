@@ -24,8 +24,6 @@ This repository is built for a step-by-step learning experience. Here is the rec
 
 ---
 
----
-
 ## 🚀 How to Practice Questions
 
 To make your practice sessions hands-on and interactive, we will use a "Guided Teacher" method powered by any free Gen-AI service (like Gemini, ChatGPT, Claude, etc.).
