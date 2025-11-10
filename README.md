@@ -9,7 +9,7 @@ This repository hosts a comprehensive curriculum designed to build expert-level 
 
 This is **not** an exhaustive list of every SQL command. It is a strategically prioritized learning path that reflects the realities of the data science interview. The curriculum de-emphasizes database administration tasks and focuses intensely on what interviewers test: **advanced data querying, complex data manipulation, analytical pattern recognition, and performance optimization**.
 
-The objective is to move beyond simple command memorization and develop the ability to **"think in SQL"** as an analyst.
+The objective is to move beyond simple command memorization and develop the ability to **"think in SQL"**.
 
 ---
 
