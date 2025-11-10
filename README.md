@@ -18,8 +18,32 @@ The objective is to move beyond simple command memorization and develop the abil
 This repository is built for a step-by-step learning experience. Here is the recommended path:
 
 1.  **Start with the Curriculum:** Open and read **`The Complete SQL Curriculum for Interviews.md`**. This is the core 12-module textbook for this entire repo. Start with Module 1.
-2.  **Practice by Module:** After you finish a module in the curriculum file, navigate to the **`./General-Practice-Questions/`** folder. Find the matching module sub-folder (e.g., `Module-03-Aggregation/`) and work through the practice questions in the text files.
-3.  **Prepare for Interviews:** Once you feel confident, go to the **`./Company-Wise-Questions/`** folder. Pick a company you're targeting and test your skills against real-world questions.
+2.  **Practice by Module:** After you finish a module in the curriculum file, navigate to the **`./General Practice Questions/`** folder. Find the matching module sub-folder (e.g., `Module-03-Aggregation/`) and work through the practice questions in the text files.
+3.  **Prepare for Interviews:** Once you feel confident, go to the **`./Company Wise Questions/`** folder. Pick a company you're targeting and test your skills against real-world questions.
+4.  **Repeat the Process:** Once you are done with a module's theory and questions proceed to the next module and repeat the process.
+
+---
+
+---
+
+## 🚀 How to Practice Questions
+
+To make your practice sessions hands-on and interactive, we will use a "Guided Teacher" method powered by any free Gen-AI service (like Gemini, ChatGPT, Claude, etc.).
+
+### 1. The Prompt File
+Inside each practice module folder (e.g., `./General-Practice-Questions/Module-03-Aggregation/`), you will find a pre-defined prompt file, likely named `AI-Teacher-Prompt.txt`.
+
+* **Action:** Open this file and **copy the entire prompt** text.
+
+### 2. The Guided Teacher
+Once you have the prompt copied, your interactive session is ready to begin.
+
+1.  **Paste the Prompt:** Go to your preferred Gen-AI service and paste the copied text as your very first message.
+2.  **Start Practicing:** The AI will immediately take on the role of a "Guided Teacher." It will present you with the first question from that module, along with any necessary details (like table schemas).
+3.  **Submit Your Solution:** Think through the problem and paste your SQL query as a response.
+4.  **Get Instant Feedback:** The AI will check your solution:
+    * **If Correct:** It will confirm your answer is right and then present the next question.
+    * **If Incorrect:** It will notify you and give you the option to **retry the question** or **ask for the correct solution** and explanation.
 
 ---
 
@@ -32,16 +56,16 @@ This repository is organized into three main components:
 * **Purpose:** This single file contains the complete, 12-module curriculum. It's your primary textbook, covering everything from fundamentals to advanced query tuning and applied data science patterns.
 
 ### 2. General Practice Questions
-* **Location:** **`./General-Practice-Questions/`**
+* **Location:** **`./General Practice Questions/`**
 * **Purpose:** This folder contains practice problems organized by topic, allowing you to solidify your skills one module at a time.
 * **Structure:**
     ```
     General-Practice-Questions/
     ├── Module-01-Fundamentals/
-    │   ├── questions-01.txt
-    │   └── ...
+    │   ├── questions.md
+    │   └── module-1-prompt.md
     ├── Module-02-DQL/
-    │   ├── questions-01.txt
+    │   ├── questions.md
     │   └── ...
     └── (...and so on for all 12 modules)
     ```
@@ -53,10 +77,10 @@ This repository is organized into three main components:
     ```
     Company-Wise-Questions/
     ├── Google/
-    │   ├── questions-set-1.txt
-    │   └── ...
+    │   ├── questions.md
+    │   └── prompt-google.md
     ├── Microsoft/
-    │   ├── questions-set-1.txt
+    │   ├── questions.md
     │   └── ...
     └── (...and so on for other companies)
     ```
