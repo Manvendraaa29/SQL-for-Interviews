@@ -1,4 +1,4 @@
-# The Complete SQL Curriculum for Data Science & AI Interviews
+# The Complete SQL Curriculum for Data Science Interviews
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![GitHub issues](https://img.shields.io/github/issues/Manvendraaa29/SQL-for-Interviews)](https://github.com/Manvendraaa29/SQL-for-Interviews/issues)
